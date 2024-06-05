@@ -4,6 +4,7 @@ import CollectionPreview from "../components/CollectiosPreview.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 import { getCollections } from "../helpers/Collections.js";
 import "../assets/ProductCard.css";
+import { RiArrowGoBackFill, RiArrowLeftDoubleFill, RiSendBackward } from "@remixicon/react";
 
 function Products() {
   const collections = getCollections();
@@ -34,11 +35,11 @@ function Products() {
         </Row>
       ) : (
         <div>
-          <button onClick={handleBackClick} >Back to Collections</button>
-          <h2>{selectedCollection.name}</h2>
-          <Row>
+          <button onClick={handleBackClick}  className="btn btn-danger"><RiArrowLeftDoubleFill/></button>
+          <h2 className="d-flex justify-content-center my-4">{selectedCollection.name}</h2>
+          <Row className="">
             {selectedCollection.catalogue.map((item) => (
-              <Col key={item.name} lg={4} md={6} sm={12}>
+              <Col key={item.name} lg={4} md={6} sm={12} className="p-3">
                 <ProductCard
                   image={item.image}
                   name={item.name}
