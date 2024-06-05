@@ -1,0 +1,18 @@
+.button-hover-effect {
+  border-radius: 90px;
+  background-color: black;
+  color: #ffff;
+  padding: 15px;
+  transition:  color 0.3s ease;
+  
+}
+
+.button-hover-effect:hover {
+  /* background-color: grey; */
+  color:#ce4c7a;
+}
+
+/* .icon{
+    color: #fff;
+    tans
+} */
