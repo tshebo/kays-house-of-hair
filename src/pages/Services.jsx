@@ -7,7 +7,7 @@ import "../assets/CardDeck.css";
 function Services() {
   return (
     <div>
-      <div className="card-container align-items-center">
+      <div className="card-container">
         <h1>Services</h1>
       </div>
       <Container>

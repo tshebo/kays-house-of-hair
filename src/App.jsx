@@ -31,6 +31,11 @@ function App() {
           <Contact />
         </section>
         <Footer />
+      
+        {/* ======================Routes========================= */}
+        <Routes>
+          <Route></Route>
+        </Routes>
       </Router>
     </div>
   );
