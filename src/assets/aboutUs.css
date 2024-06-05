@@ -16,4 +16,29 @@
     max-width: 100%;
     height: auto;
   }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: black;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    background-color: #ce4c7a;
+    color: white;
+  }
+  
   

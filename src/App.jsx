@@ -25,7 +25,7 @@ function App() {
           <Services />
         </section>
         <section id="products">
-          <Products />
+          {/* <Products /> */}
         </section>
         <section id="contact">
           <Contact />
