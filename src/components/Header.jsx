@@ -87,8 +87,10 @@ function Header() {
           <Button
             variant="primary"
             style={{ background: "#ce4c7a", border: "none", fontSize: "14px" }}
+            href="https://api.whatsapp.com/send?phone=%2B27767831191&context=ARApjTuFOG_BrE8E48GnE0pXAUe0Qgjll2sXMXsIlmMJajv9ujDE8vQZEswBKYzgNrEdzD5Eo5b0eqj9RWBW6hoR1YXcraAXtuAmquuGWizoiBmqkh4sGj-v2PUJJJP2yUPR6lkSxcyiDqRbkU_Jh2_j1Q&source=FB_Page&app=facebook&entry_point=page_cta"
+            target="_blank"
           >
-            Book An Appointment
+            Open Chat
           </Button>
         </Navbar.Collapse>
       </Container>
